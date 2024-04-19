@@ -5,3 +5,8 @@
 :root {
   @apply bg-background text-headings
 }
+  @layer utilities {
+    .animation-all {
+      @apply duration-300 transition-all
+    }
+  }
