@@ -1,3 +1,25 @@
+import { AboutItems } from "@/utils/constants";
+import Image from "next/image";
+import BodyPic from "/public/body-pic.png";
+
 export default function AboutPage() {
-  return <div>AboutPage</div>;
+  return (
+    <section className="py-8 lg:pt-12 space-y-8">
+      <h1 className="text-center font-black text-2xl">
+        Prazer, sou <span className="text-brand-color">Sandro Luz</span>
+      </h1>
+
+      <div className="flex flex-col gap-4">
+        {AboutItems.map((item, index) => (
+          <p className="font-light font-inter" key={index}>
+            {item.text}
+          </p>
+        ))}
+      </div>
+
+      <p className="text-4xl font-island text-center">Sandro Luz</p>
+
+      <Image src={BodyPic} alt="" className=" object-contain" />
+    </section>
+  );
 }
