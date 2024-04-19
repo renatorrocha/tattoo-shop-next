@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={fonts}>
-      <body className="p-12">
+      <body className="p-12 lg:px-24 lg:py-16 max-w-screen-2xl mx-auto">
         <Header />
         {children}
       </body>
