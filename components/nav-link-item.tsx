@@ -15,7 +15,7 @@ export default function NavLinkItem(props: NavLinkItemProps) {
     <Link href={props.href}>
       <nav
         className={twMerge(
-          "text-lg text-headings animation-all hover:scale-105",
+          "text-lg lg:text-[32px] text-headings animation-all hover:scale-105",
           pathName == props.href ? "text-brand-color" : null
         )}
       >
