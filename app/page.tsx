@@ -15,12 +15,7 @@ export default function Home() {
       </p>
 
       <div className="absolute top-0 left-0 w-full h-full -z-10 lg:hidden">
-        <Image
-          src={BodyImg}
-          alt="image of Sandro Luz"
-          layout="fill"
-          objectFit="cover"
-        />
+        <Image src={BodyImg} alt="image of Sandro Luz" />
       </div>
     </section>
   );
