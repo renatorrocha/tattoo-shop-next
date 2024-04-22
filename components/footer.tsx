@@ -4,7 +4,7 @@ import DotYellow from "/public/dot-yellow.svg";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between lg:justify-normal lg:gap-4 bg-footer py-4">
+    <footer className="w-full px-12 lg:px-24 left-0 bottom-0 flex justify-between lg:justify-normal lg:gap-4 bg-footer py-4">
       <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-4">
         <p className="text-xs text-muted font-inter">Sandro Luz Tattoo Shop</p>
 

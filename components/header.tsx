@@ -7,7 +7,7 @@ import WhatsAppLogo from "/public/whatsapp-logo.svg";
 
 export default function Header() {
   return (
-    <header className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 ">
+    <header className="flex pt-12 px-12 lg:px-24 lg:pt-16 flex-col lg:flex-row lg:items-center lg:justify-between gap-4 ">
       <Link
         href={paths.Home()}
         className="font-londrina text-[32px] leading-[26px] animation-all hover:scale-110"
