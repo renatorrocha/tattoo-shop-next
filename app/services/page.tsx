@@ -2,7 +2,7 @@ import { ServicesItems } from "@/utils/constants";
 
 export default function ServicesPage() {
   return (
-    <section className="py-8 lg:pt-12">
+    <section className="py-8 lg:pt-12 h-full flex-grow">
       <h1 className="font-black text-brand-color text-2xl font-inter text-center lg:text-start lg:text-3xl">
         Serviços
       </h1>
