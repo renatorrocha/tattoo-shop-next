@@ -1,3 +1,4 @@
+import { MessageFormatter } from "./message-formatter";
 import { paths } from "./paths";
 
 export const NavItems = [
@@ -43,3 +44,10 @@ export const AboutItems = [
     text: "Visite meu estúdio e veja como a arte pode se manifestar em sua pele. Estou aqui para ajudá-lo a contar sua história de uma maneira única e eterna. Agende sua consulta e vamos juntos criar algo extraordinário!",
   },
 ];
+
+const WhatsAppMessage =
+  "Olá Sandro! Eu vim pelo seu site e gostaria de conhecer mais sobre o seu trabalho!";
+
+export const WhatsAppLink = `https://wa.me/5511997111111?text=${MessageFormatter(
+  WhatsAppMessage
+)}`;
