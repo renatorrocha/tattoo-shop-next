@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={fonts}>
-      <body className="flex flex-col min-h-screen ">
+      <body className="flex flex-col min-h-screen w-full ">
         <Header />
         <main className="flex flex-col flex-grow max-w-screen-2xl mx-auto pt-8 px-12 lg:px-24 lg:pt-16">
           {children}
