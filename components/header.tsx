@@ -3,7 +3,7 @@ import NavLinkItem from "./nav-link-item";
 import Link from "next/link";
 import { paths } from "@/utils/paths";
 import Image from "next/image";
-import WhatsAppLogo from "/public/whatsapp-logo.svg";
+import WhatsAppLogo from "/public/whatsapp-logo-muted.svg";
 
 export default function Header() {
   return (

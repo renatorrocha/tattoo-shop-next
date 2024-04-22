@@ -1,5 +1,5 @@
 import Image from "next/image";
-import WhatsAppLogo from "/public/whatsapp-logo.svg";
+import WhatsAppLogo from "/public/whatsapp-logo-muted.svg";
 import DotYellow from "/public/dot-yellow.svg";
 
 export default function Footer() {
